@@ -1,16 +1,17 @@
-# SGD-Classifier
+# Implementation-of-Logistic-Regression-Using-Gradient-Descent
+
 ## AIM:
-To write a program to predict the type of species of the Iris flower using the SGD Classifier.
+To write a program to implement the the Logistic Regression Using Gradient Descent.
 
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import the required libraries such as NumPy, Scikit-learn, and the Iris dataset.
-2. Load the Iris dataset and split it into training and testing datasets.
-3. Create and train the SGD Classifier model using the training dataset.
-4. Predict the Iris flower species using the test data and display the predicted results.
+1. Import the required libraries such as NumPy, Matplotlib, and Scikit-learn.
+2. Generate or load a dataset and initialize the weights and bias with zero values.
+3. Apply the sigmoid function and use Gradient Descent to update the weights and bias iteratively.
+4. Predict the output using the trained model and display the results.
 
 ## Program:
 ```
@@ -75,8 +76,10 @@ plt.show()
 ```
 
 ## Output:
-![alt text](<output/Screenshot 2026-11-25 100200.png>)
+
+![alt text](output/1.png)
+
 
 
 ## Result:
-Thus, the program to implement the prediction of the Iris species using SGD Classifier is written and verified using Python programming.
+Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
